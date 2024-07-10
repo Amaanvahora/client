@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.timeline {
+  background: white;
+}
+
+.MuiContainer-root {
+  padding-top: 20px;
+}
+
+.MuiTypography-root {
+  margin-bottom: 20px;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #115293;
+}
+
+.MuiInputBase-root {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .MuiTypography-root {
+    font-size: 1.5rem;
+  }
+
+  .MuiButton-containedPrimary {
+    width: 100%;
+  }
+}
